@@ -12,6 +12,7 @@ node_js: stable
 install:
     - npm install
     - cd ./test/smoke/template
+    - npm cache clean --force 
     - npm install
     - cd ../../../
 
